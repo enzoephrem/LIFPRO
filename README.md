@@ -1,4 +1,4 @@
-**Classification, Skull Stripping and Segmentation of Brain Tumor MRI
+# Classification, Skull Stripping and Segmentation of Brain Tumor MRI
 
 Projet : LIFPROJET 
 
