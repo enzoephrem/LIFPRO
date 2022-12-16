@@ -2,7 +2,9 @@
 
 Projet : LIFPROJET 
 
-Page de l'UE : ww. azdazid,pazd
+UE page : http://cazabetremy.fr/wiki/doku.php?id=projet:presentation
+
+Professor in charge : [Alexandre Meyer](https://liris.cnrs.fr/page-membre/alexandre-meyer)
 
 ## 1. Abstract
 
