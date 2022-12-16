@@ -20,6 +20,16 @@ as possible and remove what is not useful, such as the skull. The skull strippin
 the brain but also to reduce the errors of the segmentation. It is usually the radiologist’s job to do this, but it is a fastidious
 and repetitive job that requires time and concentration. And like any repetitive work, it is possible to program it.
 
+
+### Download link for models
+To use the notebooks, you must first download the models and put them in their directory. We can't put them on the git because they are too big.
+- [**MobileNetV2_SGD_kl_divergence_50_2.h5**](https://drive.google.com/file/d/1-hlyTvrkRXsQehPKeNWGATZGY-BWGcRj/view?usp=share_link) :
+Path of the directory to paste : [Classification/models-classification](Classification/models-classification)
+- [**ResidualUNET3D_Adam_10_3.pth**](https://drive.google.com/file/d/12vCITnXnEyx8HXY31wKnDgce8TMNCAYf/view?usp=share_link) :
+Path of the directory to paste : [Skull_Stripping/models_skull-stripping](Skull_Stripping/models_skull-stripping)
+
+And download the data sets by placing them in their directory.
+
 ## 3. [Classification](Classification/)
 ### Dataset :
 Kaggle, [Brain Tumor Classification (MRI)](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri), 
@@ -81,9 +91,9 @@ It's only a problem with my gpu card, I only had to relaunch jupyter-lab as I sa
 
 - **Metrics**
 
-|            |  training loss  |  training accuracy  | validation loss | validation accuracy |
-|:----------:|:---------------:|:-------------------:|:---------------:|:-------------------:|
-| **Values** |   0.0523        |    0.9842           |    0.1236       |       0.9624        |
+|                                           |  training loss  |  training accuracy  | validation loss | validation accuracy |
+|:-----------------------------------------:|:---------------:|:-------------------:|:---------------:|:-------------------:|
+| **MobileNetV2_SGD_kl_divergence_50_2.h5** |   0.0523        |    0.9842           |    0.1236       |       0.9624        |
 
 - **Convolution Matrix**
 
@@ -129,9 +139,9 @@ Ths notbook contains the prediction test of the advanced skull stripping model.
 
 ### Evaluation of the advanced model :
 
-|            | MSE loss | Dice Score | IOU Score |
-|:----------:|:--------:|:----------:|:---------:|
-| **Values** |     0.019821     |  0.980179  | 0.961247  |
+|                                  | MSE loss | Dice Score | IOU Score |
+|:--------------------------------:|:--------:|:----------:|:---------:|
+| **ResidualUNET3D_Adam_10_3.pth** |     0.019821     |  0.980179  | 0.961247  |
 
 
 ### Test Prediction of the advanced model :
