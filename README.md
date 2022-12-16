@@ -6,8 +6,13 @@ UE page : http://cazabetremy.fr/wiki/doku.php?id=projet:presentation
 
 Professor in charge : [Alexandre Meyer](https://liris.cnrs.fr/page-membre/alexandre-meyer)
 
-## 1. Abstract
+Rapport PDF : [Rapport_DE-CLERCQ_EPHREM.pdf](Rapport/Rapport_DE-CLERCQ_EPHREM.pdf)
 
+## 1. Abstract
+Brain imaging refers to the use of various techniques to create images of the brain and its structures. These techniques 
+can include CT scans, MRI, PET, and others. Deep learning is a subfield of machine learning that involves the use of artificial 
+neural networks to learn and recognize patterns in data. In the context of brain imaging, deep learning can be used to analyze 
+and interpret brain images, potentially aiding in the diagnosis of brain disorders and diseases.
 
 ## 2. Introduction
 Classification and segmentation of brain tumors are important tasks in the field of medical image analysis. These
