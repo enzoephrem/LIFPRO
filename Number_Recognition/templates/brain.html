@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+<link href="../static/brain.css" rel="stylesheet">
+<script src="../static/brain.js"></script>
+
+<div class="container" style="padding-top: 2em;">
+	<div class="row align-items-start">
+		<div class="col" style="text-align: center;">
+			<h1> Select a brain scan to get a segmentated image </h1>
+		</div>
+	</div>
+	<div class="row align-items-end" style="padding-top: 2em;">
+	  <div class="col-md-6">
+		<div class="input-group mb-3">
+			<div class="custom-file">
+				<input type="file" class="custom-file-input" id="file_input">
+				<label class="custom-file-label" for="file_input" id="file_label">Choose file</label>
+			</div>
+			<div class="input-group-append">
+				<button type="" class="btn btn-outline-primary" id="file_upload">Upload</button>
+			</div>
+		</div>
+	  </div>
+	</div>
+	  <div class="row" style="padding-top: 2em;">
+		<div class="col">
+			<div><img id="image_output"/></div>
+		</div>
+		<div class="col">
+			<p><img src="{{url_for('static', filename='arrow.jpg')}}" width="50"/></p>
+		</div>
+		<div class="col">
+			<div><img id="image_output"/>result</div>
+		</div>
+
+	  </div>
+	</div>
+</div>
+
+{% endblock %}
