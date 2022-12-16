@@ -17,8 +17,8 @@ Logs of the trained model can be found in the logs folder
 
 ``` tensorboard --logdir='log' ```
 
-we'll launch the tensorboard instance
+It will launch the tensorboard instance
 
 ## Ressources 
 
-Included in the ressources folder, 3 hist plots of the Dice scores from the brats challenge 
+Included in the ressources folder, 3 hist plots of the Dice scores from the brats challenge countinious challenge 2021
