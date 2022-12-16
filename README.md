@@ -1,4 +1,4 @@
-# Classification, Skull Stripping and Segmentation of Brain Tumor MRI
+**# Classification, Skull Stripping and Segmentation of Brain Tumor MRI
 
 Projet : LIFPROJET 
 
@@ -56,10 +56,10 @@ Ths notbook contains the prediction test of the advanced classifer.
 ### Model Architecture of the advanced model:
 
 #### VGG Architecture
-![VGG Architecture](/LIFPRO/Rapport/Ressources/vgg.png "VGG Architecture")
+<img src="Rapport/Ressources/vgg.png" width=75% height=75%>
 
 #### Classifier Architecture
-![Classifier Architecture](/LIFPRO/Rapport/Ressources/classifier.png "Classifier Architecture")
+<img src="Rapport/Ressources/classifier.png" width=50% height=50%>
 
 ### Results of the advanced model :
 
@@ -73,11 +73,11 @@ It's only a problem with my gpu card, I only had to relaunch jupyter-lab as I sa
 
 - **Loss Progress**
 
-![Loss Progress](/LIFPRO/Rapport/Ressources/loss_epochs.png "Loss Progress")
+![Loss Progress](Rapport/Ressources/loss_epochs.png "Loss Progress")
 
 - **Accurency Progress**
 
-![Accurency Progress](/LIFPRO/Rapport/Ressources/accurency_epochs.png "Accurency Progress")
+![Accurency Progress](Rapport/Ressources/accurency_epochs.png "Accurency Progress")
 
 - **Metrics**
 
@@ -87,7 +87,7 @@ It's only a problem with my gpu card, I only had to relaunch jupyter-lab as I sa
 
 - **Convolution Matrix**
 
-![Convolution matrix](/LIFPRO/Rapport/Ressources/matrix_conv.png "Convolution matrix")
+![Convolution matrix](Rapport/Ressources/matrix_conv.png "Convolution matrix")
 
 
 
@@ -113,5 +113,49 @@ Ths notbook contains the prediction test of the advanced skull stripping model.
 - Batch size: 2
 
 ### Model Architecture of the advanced model:
-- Residual Block :
-![Convolution matrix](/LIFPRO/Rapport/Ressources/matrix_conv.png "Convolution matrix")
+
+- **Residual Block** :
+
+<img src="Skull_Stripping/ressources/residual_block_new.png" width=50% height=50%>
+
+- **Upscale Block**
+
+![upscale_block.png](Skull_Stripping%2Fressources%2Fupscale_block.png)
+
+- **Residual Unet 3D advanced**
+
+![upscale_block.png](Skull_Stripping/ressources/unet.png)
+
+
+### Evaluation of the advanced model :
+
+|            | MSE loss | Dice Score | IOU Score |
+|:----------:|:--------:|:----------:|:---------:|
+| **Values** |     0.019821     |  0.980179  | 0.961247  |
+
+
+### Test Prediction of the advanced model :
+
+![upscale_block.png](Rapport/Ressources/predict_skull_2.png)
+![upscale_block.png](Rapport/Ressources/predict_skull_1.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
