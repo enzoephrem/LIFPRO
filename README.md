@@ -149,12 +149,27 @@ Ths notbook contains the prediction test of the advanced skull stripping model.
 ![upscale_block.png](Rapport/Ressources/predict_skull_2.png)
 ![upscale_block.png](Rapport/Ressources/predict_skull_1.png)
 
-## References
-- [Skull Stripping and ICA, Muraligm Akshay, Machine Learning Engineer](https://github.com/aksh-ai/skull-stripping-and-ica)
+## Conclusion
+ In conclusion of this project, we can conclude that we have exceeded our expectations. We did not expect to obtain such
+ high results. The skull stripping model has exceeded the results of Muraligm Akshay. The segmentation results are in the
+ upper range of the BRATS competition.
+    
+The only thing we regret is that we did not succeed in fully linking our project. 
+We missed a few days to realize several skull stripping models according to T2 and FLAIR sequences. This would have simply
+required a dataset search, which can sometimes be very long, the transfer of the T1 sequence to T1ce by applying filters
+and several tens of hours of training.
 
-- [G. Balaji, R. Sen, H. Kirty, "Detection and Classification of Brain tumors Using Deep Convolutional Neural Networks", 4.1.4 Skull Stripping,](https://arxiv.org/pdf/2208.13264.pdf)
-- [Kaggle, "Brain Tumor MRI Dataset"](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
-- [Kaggle, "BraTS2020 Dataset (Training + Validation)"](https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation)
+If we could review the methodology of our project. We would have placed the skull stripping first, then a new 3D classifier
+that would take as input a MRI sequence and finally the segmentation.
+    
+Unfortunately we could not do the 3D classifier because of lack of data. It is difficult to get MRI of the brain and even
+more difficult to get healthy MRI.
+
+## References
+- [M. AkshaySkull, Stripping and ICA](https://github.com/aksh-ai/skull-stripping-and-ica)
+- [G. Balaji, R. Sen, H. Kirty, "Detection and Classification of Brain tumors Using Deep Convolutional Neural Networks", 4.1.4 Skull Stripping](https://arxiv.org/pdf/2208.13264.pdf)
+- [Kaggle, Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
+- [Kaggle, BraTS2020 Dataset (Training + Validation)](https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation)
 - [Neurofeedback Skull-stripped (NFBS) repository](http://preprocessed-connectomes-project.org/NFB_skullstripped/)
 - [A. Hoopes, J. Mora,  A. Dalca, B. Fischl and M. Hoffmann, "SynthStrip: Skull-Stripping for Any Brain Image"](https://arxiv.org/abs/2203.09974)
 - [Geoffrey E. Hinton, Nitish Srivastava, Alex Krizhevsky, Ilya Sutskever, Ruslan R. Salakhutdinov, "Improving neural networks by preventing co-adaptation of feature detectors"](https://arxiv.org/abs/1207.0580)
