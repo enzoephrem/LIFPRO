@@ -8,7 +8,7 @@ A small notebook will be included to walk through the code and show an exemple o
 
 ## Note
 
-Note that any demo should be launch within the demo folder 
+Note that any demo should be launched within the demo folder 
 
 
 ## Logs
