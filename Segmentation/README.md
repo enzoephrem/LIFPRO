@@ -10,7 +10,16 @@ A small notebook will be included to walk through the code and show an exemple o
 
 Note that any demo should be launched within the demo folder 
 
+### 00_demo
 
+Shows the process of a patient MRI till segmentation
+### 01_demo
+
+Shows the compareson of the mask and the predicted mask
+
+### display_demo
+
+Exemples of how the display functions are used
 ## Logs
 
 Logs of the trained model can be found in the logs folder
