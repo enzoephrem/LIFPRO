@@ -1,4 +1,4 @@
-**# Classification, Skull Stripping and Segmentation of Brain Tumor MRI
+**Classification, Skull Stripping and Segmentation of Brain Tumor MRI
 
 Projet : LIFPROJET 
 
@@ -139,10 +139,21 @@ Ths notbook contains the prediction test of the advanced skull stripping model.
 ![upscale_block.png](Rapport/Ressources/predict_skull_2.png)
 ![upscale_block.png](Rapport/Ressources/predict_skull_1.png)
 
+## References
+- [Skull Stripping and ICA, Muraligm Akshay, Machine Learning Engineer](https://github.com/aksh-ai/skull-stripping-and-ica)
 
-
-
-
+- [G. Balaji, R. Sen, H. Kirty, "Detection and Classification of Brain tumors Using Deep Convolutional Neural Networks", 4.1.4 Skull Stripping,](https://arxiv.org/pdf/2208.13264.pdf)
+- [Kaggle, "Brain Tumor MRI Dataset"](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
+- [Kaggle, "BraTS2020 Dataset (Training + Validation)"](https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation)
+- [Neurofeedback Skull-stripped (NFBS) repository](http://preprocessed-connectomes-project.org/NFB_skullstripped/)
+- [A. Hoopes, J. Mora,  A. Dalca, B. Fischl and M. Hoffmann, "SynthStrip: Skull-Stripping for Any Brain Image"](https://arxiv.org/abs/2203.09974)
+- [Geoffrey E. Hinton, Nitish Srivastava, Alex Krizhevsky, Ilya Sutskever, Ruslan R. Salakhutdinov, "Improving neural networks by preventing co-adaptation of feature detectors"](https://arxiv.org/abs/1207.0580)
+- [B. H. Menze, A. Jakab, S. Bauer, J. Kalpathy-Cramer, K. Farahani, J. Kirby, et al. "The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)", IEEE Transactions on Medical Imaging 34(10), 1993-2024 (2015) DOI](https://ieeexplore.ieee.org/document/6975210)
+- [S. Bakas, H. Akbari, A. Sotiras, M. Bilello, M. Rozycki, J.S. Kirby, et al., "Advancing The Cancer Genome Atlas glioma MRI collections with expert segmentation labels and radiomic features", Nature Scientific Data, 4:170117 (2017) DOI](https://www.nature.com/articles/sdata2017117)
+- [S. Bakas, M. Reyes, A. Jakab, S. Bauer, M. Rempfler, A. Crimi, et al., "Identifying the Best Machine Learning Algorithms for Brain Tumor Segmentation, Progression Assessment, and Overall Survival Prediction in the BRATS Challenge"](https://arxiv.org/abs/1811.02629)
+- [U.Baid, et al., The RSNA-ASNR-MICCAI BraTS 2021 Benchmark on Brain Tumor Segmentation and Radiogenomic Classification, arXiv:2107.02314, 2021](https://arxiv.org/abs/2107.02314)
+- [Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas, "U-Net: Convolutional Networks for Biomedical Image Segmentation" (2015)](https://arxiv.org/abs/1505.04597)
+- [Solovyev, Roman and Kalinin, Alexandr A and Gabruseva, Tatiana, "3D convolutional neural networks for stalled brain capillary detection", Computers in Biology and Medicine 2022, doi: 10.1016/j.compbiomed.2021.105089 ](https://github.com/ZFTurbo/segmentation_models_3D)
 
 
 
